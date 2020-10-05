@@ -1,3 +1,7 @@
+body{
+    background-color: beige;
+}
+
 #title, .subtitle, .post_title {
     color: blue;
 
@@ -13,4 +17,13 @@
 #title{
     font-size: 40px;
     font-style: oblique;
+}
+.post{
+    background-color: white;
+    padding: 15px 10px 5px 10px;
+    border-top: 4px dotted palevioletred;
+    border-right: 4px solid black;
+    border-bottom:4px double greenyellow;
+    border-left: 4px dashed lightsalmon;
+    margin: 10px;
 }
