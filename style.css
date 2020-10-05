@@ -1,3 +1,8 @@
+.photo{
+    border-radius: 50%;
+    border: black solid 2px;
+}
+
 body{
     background-color: beige;
 }
@@ -24,8 +29,9 @@ body{
     border-top: 4px dotted palevioletred;
     border-right: 4px solid black;
     border-bottom:4px double greenyellow;
-    border-left: 4px dashed lightsalmon;
+    border-left: 4px dashed  blue;
     margin-bottom: 15px;
+    border-radius: 15px;
 }
 .post.content{
     margin: 0px;
@@ -33,5 +39,6 @@ body{
 }
 .post.image{
     margin-bottom: 15px;
+    
 
 }
