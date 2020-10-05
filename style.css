@@ -6,3 +6,11 @@
      font-size: 16px;
      font-style: italic;
 }
+.subtitle{
+    font-size: 32px;
+    font-style: inherit;
+}
+#title{
+    font-size: 40px;
+    font-style: oblique;
+}
