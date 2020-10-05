@@ -3,7 +3,7 @@ body{
 }
 
 #title, .subtitle, .post_title {
-    color: blue;
+    color: black;
 
 }
 .post_title{
@@ -20,10 +20,18 @@ body{
 }
 .post{
     background-color: white;
-    padding: 15px 10px 5px 10px;
+    padding: 15px;
     border-top: 4px dotted palevioletred;
     border-right: 4px solid black;
     border-bottom:4px double greenyellow;
     border-left: 4px dashed lightsalmon;
-    margin: 10px;
+    margin-bottom: 15px;
+}
+.post.content{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.post.image{
+    margin-bottom: 15px;
+
 }
