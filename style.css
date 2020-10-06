@@ -5,7 +5,8 @@
 
 body{
     background-color: beige;
-}
+    max-width: 900px;
+    margin: auto;
 
 #title, .subtitle, .post_title {
     color: black;
@@ -37,6 +38,9 @@ body{
     border-left: 4px dashed  blue;
     margin-bottom: 15px;
     border-radius: 15px;
+    width: 500px;
+    
+    
     
 }
 .post.content{
@@ -45,8 +49,10 @@ body{
     font-family: sans-serif;
     margin-bottom: 15px;
 }
-.post.image{
+.image{
     margin-bottom: 15px;
+    width: 100%;
+    
 }
 .footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
