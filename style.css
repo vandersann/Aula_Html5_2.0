@@ -13,18 +13,19 @@ body{
 
 }
 .post_title{
-     font-size: 16px;
-     font-style: normal;
+     font-size: 22px;
+     font-style: bolder;
      font-weight: bolder;
+     text-decoration: underline;
 
 }
 .subtitle{
     font-size: 32px;
     font-style: bolder;
-  s;
+  
 }
 #title{
-    font-size: 40px;
+    font-size: 48px;
     font-style: oblique;
 }
 .post{
@@ -36,10 +37,12 @@ body{
     border-left: 4px dashed  blue;
     margin-bottom: 15px;
     border-radius: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .post.content{
-    margin: 0px;
+    font-size: 20px;
+    font-weight: initial;
+    font-family: sans-serif;
     margin-bottom: 15px;
 }
 .post.image{
@@ -47,5 +50,9 @@ body{
 }
 .footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    text-decoration: underline;
+}
+.list{
+    list-style-type: square;
+    padding-left: 15px;
 }
